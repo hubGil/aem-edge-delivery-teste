@@ -1,15 +1,15 @@
 import {
-  buildBlock,
-  loadHeader,
-  loadFooter,
-  decorateIcons,
-  decorateSections,
-  decorateBlocks,
-  decorateTemplateAndTheme,
-  waitForFirstImage,
-  loadSection,
-  loadSections,
-  loadCSS,
+	buildBlock,
+	decorateBlocks,
+	decorateIcons,
+	decorateSections,
+	decorateTemplateAndTheme,
+	loadCSS,
+	loadFooter,
+	loadHeader,
+	loadSection,
+	loadSections,
+	waitForFirstImage,
 } from './aem.js';
 
 /**
@@ -29,6 +29,13 @@ function buildHeroBlock(main) {
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
   }
+}
+
+function buildTitleBlock(main){
+	const title = main.querySelector('h2');
+	const section = document.createElement('div');
+
+	section.append(buildBlock('title', {element: [title]}))
 }
 
 /**

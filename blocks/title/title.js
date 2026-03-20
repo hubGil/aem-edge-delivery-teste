@@ -1,3 +1,3 @@
 export default function decorate(block) {
-	console.log('hero', block)
+	console.log('title', block)
 }
