@@ -4,6 +4,7 @@ Your project's description...
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
 - Live: https://main--{repo}--{owner}.aem.live/
+- Docs: https://hubGil.github.io/aem-edge-delivery-teste/
 
 ## Documentation
 
