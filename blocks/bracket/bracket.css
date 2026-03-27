@@ -1,0 +1,210 @@
+.bracket {
+  overflow: visible;
+  --round-width: 12rem;
+  --round-gap: 2rem;
+  --connector-gap: 1rem;
+  --connector-color: #4b5163;
+  --connector-width: 2px;
+  --connector-center: 33px;
+}
+
+.bracket .bracket-title {
+  margin: 0 0 1.25rem;
+}
+
+.bracket .bracket-layout {
+  display: flex;
+  gap: var(--round-gap);
+  align-items: flex-start;
+  width: 100%;
+  max-width: 100%;
+  min-width: max-content;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 0.25rem 0 0.75rem;
+  scrollbar-gutter: stable;
+  overscroll-behavior-x: contain;
+}
+
+.bracket .bracket-round {
+  position: relative;
+  width: var(--round-width);
+  min-width: var(--round-width);
+  height: var(--round-height, auto);
+}
+
+.bracket .bracket-round-title {
+  margin: 0 0 0.75rem;
+  color: #a9b1c3;
+  font-size: 0.6875rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.bracket .bracket-match {
+  position: absolute;
+  inset-inline: 0;
+  top: var(--match-top);
+}
+
+.bracket .bracket-match-label {
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: calc(100% + 0.35rem);
+  margin: 0;
+  color: #7f8799;
+  font-size: 0.625rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.bracket .bracket-panel {
+  position: relative;
+  overflow: visible;
+}
+
+.bracket .bracket-panel-surface {
+  border: 1px solid #262b37;
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 3%), rgb(255 255 255 / 0%)),
+    #171a22;
+  overflow: hidden;
+  box-shadow:
+    0 10px 24px rgb(0 0 0 / 14%),
+    inset 0 1px 0 rgb(255 255 255 / 3%);
+}
+
+.bracket .bracket-match.has-left-connector::before,
+.bracket .bracket-match.has-right-connector::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--connector-center) - (var(--connector-width) / 2));
+  width: var(--connector-gap);
+  height: var(--connector-width);
+  background: var(--connector-color);
+}
+
+.bracket .bracket-match.has-left-connector::before {
+  right: calc(100% + 1px);
+}
+
+.bracket .bracket-match.has-right-connector::after {
+  left: calc(100% + 1px);
+}
+
+.bracket .bracket-match.has-right-connector .bracket-panel::after {
+  content: '';
+  position: absolute;
+  left: calc(100% + var(--connector-gap) - (var(--connector-width) / 2));
+  width: var(--connector-width);
+  background: var(--connector-color);
+}
+
+.bracket .bracket-match.has-right-connector.is-pair-top .bracket-panel::after {
+  top: var(--connector-center);
+  height: var(--connector-stem);
+}
+
+.bracket .bracket-match.has-right-connector.is-pair-bottom .bracket-panel::after {
+  top: calc(var(--connector-center) - var(--connector-stem));
+  height: var(--connector-stem);
+}
+
+.bracket .bracket-team {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.75rem;
+  min-height: 2rem;
+  align-items: center;
+  color: #eef1f7;
+  background: transparent;
+}
+
+.bracket .bracket-team.is-bottom {
+  border-top: 1px solid #232835;
+}
+
+.bracket .bracket-team:first-child .bracket-team-name {
+  border-top-left-radius: 0;
+}
+
+.bracket .bracket-team:first-child .bracket-team-score {
+  border-top-right-radius: 0;
+}
+
+.bracket .bracket-team:last-child .bracket-team-name {
+  border-bottom-left-radius: 0;
+}
+
+.bracket .bracket-team:last-child .bracket-team-score {
+  border-bottom-right-radius: 0;
+}
+
+.bracket .bracket-team.is-winner {
+  background: rgb(255 255 255 / 2%);
+}
+
+.bracket .bracket-team.is-winner .bracket-team-name,
+.bracket .bracket-team.is-winner .bracket-team-score {
+  color: #fff;
+}
+
+.bracket .bracket-team-name,
+.bracket .bracket-team-score {
+  padding: 0 0.75rem;
+}
+
+.bracket .bracket-team-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bracket .bracket-team-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  border-left: 1px solid rgb(255 255 255 / 4%);
+  background: rgb(255 255 255 / 5%);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+@media (width < 900px) {
+  .bracket {
+    --round-width: 100%;
+    --round-gap: 2.5rem;
+  }
+
+  .bracket .bracket-layout {
+    display: block;
+    min-width: 0;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .bracket .bracket-round {
+    width: auto;
+    min-width: 0;
+    margin-bottom: 2rem;
+    height: auto !important;
+  }
+
+  .bracket .bracket-match {
+    position: relative;
+    top: auto !important;
+    margin-bottom: 1rem;
+  }
+
+  .bracket .bracket-match::before,
+  .bracket .bracket-match::after,
+  .bracket .bracket-panel::after {
+    display: none;
+  }
+}

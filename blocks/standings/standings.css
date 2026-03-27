@@ -1,0 +1,142 @@
+.standings .standings-title,
+.standings .standings-subtitle {
+  margin: 0 0 16px;
+}
+
+.standings .standings-wrapper {
+  overflow-x: auto;
+  border: 1px solid #d9dee5;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.standings .standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+
+.standings .standings-table th,
+.standings .standings-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e7ebf0;
+  text-align: left;
+}
+
+.standings .standings-table thead th {
+  background: #f5f7fa;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.standings .standings-table tbody tr:last-child th,
+.standings .standings-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.standings .standings-table tbody th {
+  font-weight: 700;
+}
+
+.standings .standings-table tbody tr.status-qualified,
+.standings .standings-table tbody tr.status-playoff,
+.standings .standings-table tbody tr.status-play-in,
+.standings .standings-table tbody tr.status-relegation {
+  box-shadow: inset 4px 0 0 transparent;
+}
+
+.standings .standings-table tbody tr.status-qualified {
+  box-shadow: inset 4px 0 0 #1a9c44;
+}
+
+.standings .standings-table tbody tr.status-playoff {
+  box-shadow: inset 4px 0 0 #1769ff;
+}
+
+.standings .standings-table tbody tr.status-play-in {
+  box-shadow: inset 4px 0 0 #ff9f1a;
+}
+
+.standings .standings-table tbody tr.status-relegation {
+  box-shadow: inset 4px 0 0 #d93025;
+}
+
+.standings .standings-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.standings .standings-legend-item {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.standings .standings-legend-marker {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.standings .standings-legend-marker.status-qualified {
+  background: #1a9c44;
+}
+
+.standings .standings-legend-marker.status-playoff {
+  background: #1769ff;
+}
+
+.standings .standings-legend-marker.status-play-in {
+  background: #ff9f1a;
+}
+
+.standings .standings-legend-marker.status-relegation {
+  background: #d93025;
+}
+
+.standings .standings-matches {
+  margin-top: 32px;
+}
+
+.standings .standings-match-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.standings .standings-match-item {
+  border: 1px solid #d9dee5;
+  border-radius: 18px;
+  padding: 16px 18px;
+  background: #fff;
+}
+
+.standings .standings-match-meta,
+.standings .standings-match-teams,
+.standings .standings-match-result,
+.standings .standings-empty {
+  margin: 0;
+}
+
+.standings .standings-match-meta {
+  color: #5f6b7a;
+  font-size: 0.875rem;
+}
+
+.standings .standings-match-teams {
+  margin-top: 8px;
+  font-size: var(--heading-font-size-xs);
+  font-weight: 700;
+}
+
+.standings .standings-match-result {
+  margin-top: 8px;
+}

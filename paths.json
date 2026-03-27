@@ -1,0 +1,9 @@
+{
+  "mappings": [
+    "/content/aem-edge-delivery-teste/:/",
+    "/content/aem-edge-delivery-teste/standings:/standings.json"
+  ],
+  "includes": [
+    "/content/aem-edge-delivery-teste/**"
+  ]
+}
