@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#121212"/>
+  <rect x="120" y="80" width="720" height="380" rx="30" fill="#202020"/>
+  <polygon points="430,215 430,325 540,270" fill="#ff2f2f"/>
+  <rect x="120" y="80" width="720" height="380" rx="30" fill="none" stroke="#3a3a3a" stroke-width="3"/>
+  <text x="480" y="500" fill="#e5e5e5" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">YouTube embed via iframe</text>
+</svg>

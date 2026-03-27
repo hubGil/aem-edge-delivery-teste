@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#171a22"/>
+  <text x="110" y="70" fill="#a9b1c3" font-family="Arial, sans-serif" font-size="20">OITAVAS</text>
+  <text x="330" y="70" fill="#a9b1c3" font-family="Arial, sans-serif" font-size="20">QUARTAS</text>
+  <text x="550" y="70" fill="#a9b1c3" font-family="Arial, sans-serif" font-size="20">SEMI</text>
+  <text x="740" y="70" fill="#a9b1c3" font-family="Arial, sans-serif" font-size="20">FINAL</text>
+  <rect x="90" y="110" width="130" height="66" rx="12" fill="#202531" stroke="#374051"/>
+  <rect x="90" y="220" width="130" height="66" rx="12" fill="#202531" stroke="#374051"/>
+  <rect x="310" y="165" width="130" height="66" rx="12" fill="#202531" stroke="#374051"/>
+  <rect x="530" y="165" width="130" height="66" rx="12" fill="#202531" stroke="#374051"/>
+  <rect x="730" y="165" width="130" height="66" rx="12" fill="#202531" stroke="#374051"/>
+  <path d="M220 143h40m50 55h-50m40-55v55" stroke="#7f8799" stroke-width="4" fill="none"/>
+  <path d="M440 198h40m50 0h-50" stroke="#7f8799" stroke-width="4" fill="none"/>
+  <path d="M660 198h40m30 0h-30" stroke="#7f8799" stroke-width="4" fill="none"/>
+  <text x="110" y="150" fill="#eef1f7" font-family="Arial, sans-serif" font-size="22">Time A  2</text>
+  <text x="110" y="260" fill="#eef1f7" font-family="Arial, sans-serif" font-size="22">Time B  1</text>
+  <text x="330" y="205" fill="#eef1f7" font-family="Arial, sans-serif" font-size="22">Time A  3</text>
+  <text x="550" y="205" fill="#eef1f7" font-family="Arial, sans-serif" font-size="22">Time A  3</text>
+  <text x="750" y="205" fill="#eef1f7" font-family="Arial, sans-serif" font-size="22">Campeão</text>
+</svg>

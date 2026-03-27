@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f4efe6"/>
+  <rect x="140" y="90" width="680" height="300" rx="30" fill="#fff" stroke="#d5cfc2" stroke-width="3"/>
+  <rect x="180" y="130" width="250" height="220" rx="22" fill="#d8e6f5"/>
+  <rect x="470" y="150" width="120" height="16" rx="8" fill="#8b6f47"/>
+  <rect x="470" y="190" width="220" height="24" rx="12" fill="#243447"/>
+  <rect x="470" y="236" width="250" height="12" rx="6" fill="#9aa7b4"/>
+  <rect x="470" y="260" width="210" height="12" rx="6" fill="#9aa7b4"/>
+  <rect x="470" y="300" width="140" height="40" rx="20" fill="#243447"/>
+  <text x="520" y="326" fill="#fff" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">CTA</text>
+  <circle cx="118" cy="240" r="28" fill="#243447"/>
+  <circle cx="842" cy="240" r="28" fill="#243447"/>
+  <path d="M126 240l-10-10m10 10l-10 10" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M834 240l10-10m-10 10l10 10" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="450" cy="442" r="8" fill="#243447"/>
+  <circle cx="480" cy="442" r="8" fill="#b7c0ca"/>
+  <circle cx="510" cy="442" r="8" fill="#b7c0ca"/>
+</svg>

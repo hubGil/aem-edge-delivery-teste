@@ -2,24 +2,22 @@
 layout: home
 
 hero:
-  name: "AEM - Edge Delivery Service"
-  text: "Iniciando seu primeiro Projeto"
-  tagline: AEM EDS
+  name: "AEM Edge Delivery"
+  text: "Documentação do projeto"
+  tagline: "Guia técnico do site, dos blocks e da integração com Adobe Document Authoring."
   actions:
     - theme: brand
-      text: Introdução
-      link: /introduction
+      text: Documentação em português
+      link: /pt/
     - theme: alt
-      text: Certificações
-      link: /api-examples
+      text: English docs
+      link: /en/
 
 features:
-  - title: Certificações
-    details: Aqui você encontra informações e links para certificações
-  - title: Google Docs
-    details: Um guia de como iniciar sua aplicação usando o Google docs 
-  - title: Universal Editor
-    details: Um guia de como iniciar sua aplicação usando o Universal editor
+  - title: Português
+    details: Instalação, fluxo de autoria, DA, arquitetura, blocks e paths.json.
+  - title: English
+    details: Estrutura já definida para futura tradução e expansão da documentação.
+  - title: Baseado no código
+    details: As páginas descrevem o comportamento real do projeto atual, não um template genérico.
 ---
-
-

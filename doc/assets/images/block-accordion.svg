@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f4f1ea"/>
+  <rect x="120" y="90" width="720" height="84" rx="18" fill="#fff" stroke="#d5cfc2" stroke-width="3"/>
+  <rect x="120" y="190" width="720" height="84" rx="18" fill="#fff" stroke="#d5cfc2" stroke-width="3"/>
+  <rect x="120" y="274" width="720" height="126" rx="18" fill="#fff" stroke="#d5cfc2" stroke-width="3"/>
+  <text x="170" y="142" fill="#2f3a44" font-family="Arial, sans-serif" font-size="28" font-weight="700">Pergunta 1</text>
+  <text x="170" y="242" fill="#2f3a44" font-family="Arial, sans-serif" font-size="28" font-weight="700">Pergunta 2</text>
+  <text x="170" y="326" fill="#5e6a73" font-family="Arial, sans-serif" font-size="24">Resposta aberta com conteúdo editoral</text>
+  <text x="170" y="362" fill="#5e6a73" font-family="Arial, sans-serif" font-size="24">e comportamento acessível em accordion.</text>
+  <path d="M760 128l18 18 18-18" fill="none" stroke="#2f3a44" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M760 246l18-18 18 18" fill="none" stroke="#2f3a44" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
