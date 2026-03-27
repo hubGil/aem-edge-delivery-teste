@@ -1,5 +1,6 @@
 .bracket {
   overflow: visible;
+
   --round-width: 12rem;
   --round-gap: 2rem;
   --connector-gap: 1rem;
@@ -19,8 +20,7 @@
   width: 100%;
   max-width: 100%;
   min-width: max-content;
-  overflow-x: auto;
-  overflow-y: visible;
+  overflow: auto visible;
   padding: 0.25rem 0 0.75rem;
   scrollbar-gutter: stable;
   overscroll-behavior-x: contain;
@@ -127,31 +127,6 @@
   border-top: 1px solid #232835;
 }
 
-.bracket .bracket-team:first-child .bracket-team-name {
-  border-top-left-radius: 0;
-}
-
-.bracket .bracket-team:first-child .bracket-team-score {
-  border-top-right-radius: 0;
-}
-
-.bracket .bracket-team:last-child .bracket-team-name {
-  border-bottom-left-radius: 0;
-}
-
-.bracket .bracket-team:last-child .bracket-team-score {
-  border-bottom-right-radius: 0;
-}
-
-.bracket .bracket-team.is-winner {
-  background: rgb(255 255 255 / 2%);
-}
-
-.bracket .bracket-team.is-winner .bracket-team-name,
-.bracket .bracket-team.is-winner .bracket-team-score {
-  color: #fff;
-}
-
 .bracket .bracket-team-name,
 .bracket .bracket-team-score {
   padding: 0 0.75rem;
@@ -163,6 +138,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .bracket .bracket-team-score {
@@ -174,6 +151,17 @@
   background: rgb(255 255 255 / 5%);
   font-size: 0.875rem;
   font-weight: 700;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.bracket .bracket-team.is-winner {
+  background: rgb(255 255 255 / 2%);
+}
+
+.bracket .bracket-team.is-winner .bracket-team-name,
+.bracket .bracket-team.is-winner .bracket-team-score {
+  color: #fff;
 }
 
 @media (width < 900px) {

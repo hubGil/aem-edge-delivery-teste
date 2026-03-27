@@ -2,6 +2,9 @@
 coverage/*
 logs/*
 node_modules/*
+doc/.vitepress/.temp/
+doc/.vitepress/cache/
+doc/.vitepress/dist/
 
 helix-importer-ui
 .DS_Store

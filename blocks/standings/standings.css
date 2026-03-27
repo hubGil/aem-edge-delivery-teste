@@ -30,13 +30,13 @@
   letter-spacing: 0.04em;
 }
 
+.standings .standings-table tbody th {
+  font-weight: 700;
+}
+
 .standings .standings-table tbody tr:last-child th,
 .standings .standings-table tbody tr:last-child td {
   border-bottom: 0;
-}
-
-.standings .standings-table tbody th {
-  font-weight: 700;
 }
 
 .standings .standings-table tbody tr.status-qualified,
