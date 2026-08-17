@@ -32,7 +32,7 @@ Cada block transforma o HTML bruto em UI final
 
 ## Trilha recomendada
 
-1. Leia [Como instalar](/pt/instalacao).
+1. Faça um fork do projeto e leia [Como instalar](/pt/instalacao).
 2. Configure a autoria em [Configuração do Adobe DA](/pt/configuracao-da).
 3. Entenda o carregamento em [Arquitetura do projeto](/pt/arquitetura).
 4. Veja a base dos componentes em [Visão geral dos blocks](/pt/blocks/visao-geral).
