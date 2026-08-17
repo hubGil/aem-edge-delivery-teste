@@ -9,8 +9,24 @@ title: Como instalar
 
 - Node.js instalado.
 - `npm` disponível no terminal.
-- Repositório clonado localmente.
-- Permissão para usar o GitHub App `aem-code-sync` no repositório.
+- **Fork deste repositório** feito na sua conta — [faça o fork aqui](https://github.com/hubGil/aem-edge-delivery-teste/fork).
+- Fork clonado localmente.
+
+## Instalar o AEM Code Sync GitHub App
+
+> _Nota: os passos abaixo já cobrem o necessário. Consulte o [Developer Tutorial](https://www.aem.live/developer/tutorial) para ver a documentação oficial completa se necessário._
+
+1. Acesse o [AEM Code Sync](https://github.com/apps/aem-code-sync/installations/new) e instale a aplicação no repositório do projeto.
+2. Em "Repository access", escolha **Only select repositories**, selecione seu repositório e clique em **Save**.
+3. Defina os **usuários**, as **permissões** e a **content source** e clique em **Finish setup**.
+
+   > _As configurações e permissões podem ser alteradas posteriormente pelo [AEM Configuration Manager](https://tools.aem.live/) ou pela [Admin API](https://www.aem.live/docs/admin.html)._
+
+O site fica disponível em `https://<branch>--<repo>--<owner>.aem.page/` (ex.: `https://main--mysite--aemtutorial.aem.page/`).
+
+### Publique para ver o site rodando
+
+O "Finish setup" só entrega a URL de preview vazia. É preciso publicar conteúdo (Sidekick ou fluxo de autoria) para ver algo, tanto no preview (`aem.page`) quanto no live (`aem.live`).
 
 ## Instalação local
 
