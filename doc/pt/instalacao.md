@@ -20,7 +20,7 @@ title: Como instalar
 2. Em "Repository access", escolha **Only select repositories**, selecione seu repositório e clique em **Save**.
 3. Defina os **usuários**, as **permissões** e a **content source** e clique em **Finish setup**.
 
-   > _As configurações e permissões podem ser alteradas posteriormente pelo [AEM Configuration Manager](https://tools.aem.live/) ou pela [Admin API](https://www.aem.live/docs/admin.html)._
+   > _As configurações e permissões podem ser alteradas posteriormente pelo [AEM Configuration Manager](https://tools.aem.live/) ou pela [Admin API](https://www.aem.live/docs/admin.html) — veja exemplos de chamadas em [Chamadas à Admin API](/pt/admin-api)._
 
 O site fica disponível em `https://<branch>--<repo>--<owner>.aem.page/` (ex.: `https://main--mysite--aemtutorial.aem.page/`).
 
