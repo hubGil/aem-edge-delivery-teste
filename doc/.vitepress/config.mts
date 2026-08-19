@@ -18,6 +18,7 @@ export default {
           items: [
             { text: 'Início', link: '/pt/' },
             { text: 'Como instalar', link: '/pt/instalacao' },
+            { text: 'Chamadas à Admin API', link: '/pt/admin-api' },
             { text: 'Configuração do Adobe DA', link: '/pt/configuracao-da' },
             { text: 'Arquitetura do projeto', link: '/pt/arquitetura' },
             { text: 'paths.json e autoria', link: '/pt/paths-e-autoria' },
